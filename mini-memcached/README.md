@@ -7,7 +7,7 @@
 To run this container and bind port `11211`:
 
 ```
-docker run -d -p 11211:11211 luislavena/memcached
+docker run -d -p 11211:11211 luislavena/mini-memcached
 ```
 
 You can now check the logs:
