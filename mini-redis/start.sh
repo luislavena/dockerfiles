@@ -16,7 +16,7 @@ set_maxmemory() {
 start() {
 	set_maxmemory
 
-	redis-server $REDIS_CONF
+	exec redis-server $REDIS_CONF
 }
 
 start
