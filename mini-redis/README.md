@@ -32,6 +32,15 @@ Above example will limit Redis to use a maximum of `512MB` of RAM.
 
 You can express sizes in bytes, kilobytes, gigabytes or terabytes if you like.
 
+### Data and volumes
+
+This container defines `/var/lib/redis` as bind mount volume. You can mount it
+when starting the container:
+
+```
+docker run -v /mydata/redis:/var/lib/redis -d -p 6379:6379 luislavena/mini-redis
+```
+
 ## License
 
 ISC
