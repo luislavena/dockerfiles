@@ -3,6 +3,9 @@
 Little experiment using Docker and minimal containers to organize **my**
 development machine (and perhaps help others).
 
+**DEPRECATED**: This repository is no longer maintained. Please see and use
+[mini-containers](https://github.com/mini-containers) Dockerfiles instead.
+
 ## Motivation
 
 Find myself switching machines, OS, distros and even *shells* when working
